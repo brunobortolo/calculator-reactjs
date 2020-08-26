@@ -1,0 +1,25 @@
+.calculator-number {
+    height: 8rem;
+    min-width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px 3px;
+    transition: transform 0.2s;
+    background: #ecf0f1;
+    border-radius: 4px;
+}
+
+.calculator-number:hover {
+    transform: scale(1.1);
+    border: 0;
+    background: #bdc3c7;
+}
+
+#number-0:hover {
+    transform: scale(1.04, 1.11);
+}
+
+.calculator-number p {
+    font: 400 2.4rem Poppins;
+}

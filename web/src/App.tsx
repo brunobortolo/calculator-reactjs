@@ -1,12 +1,24 @@
 import React from 'react';
 
-import CalculatorButton from './components/CalculatorButton'; 
+import CalculatorNumber from './components/CalculatorNumber'; 
 
+import './assets/styles/global.css';
 import './styles.css';
 
 function App() {
   return (
-    <CalculatorButton content="0"/>
+    <div className="container">
+      <CalculatorNumber content="0"/>
+      <CalculatorNumber content="1"/>
+      <CalculatorNumber content="2"/>
+      <CalculatorNumber content="3"/>
+      <CalculatorNumber content="4"/>
+      <CalculatorNumber content="5"/>
+      <CalculatorNumber content="6"/>
+      <CalculatorNumber content="7"/>
+      <CalculatorNumber content="8"/>
+      <CalculatorNumber content="9"/>
+    </div>
   );
 }
 
