@@ -2,13 +2,13 @@
     display: grid;
 
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 
     grid-template-areas: 
-    "number-7 number-8 number-9"
-    "number-4 number-5 number-6"
-    "number-1 number-2 number-3"
-    "number-0 number-0 number-0";
+    "number-7 number-8 number-9 operator-division"
+    "number-4 number-5 number-6 operator-multiplication"
+    "number-1 number-2 number-3 operator-subtraction"
+    "number-0 operator-dot operator-result operator-addition";
 
     background: #2980b9;
     border-radius: 4px;
@@ -19,37 +19,57 @@
 }
 
 #number-1 {
-    grid-area: number-1; 
- }
+   grid-area: number-1; 
+}
 
- #number-2 {
-    grid-area: number-2; 
- }
+#number-2 {
+   grid-area: number-2; 
+}
 
- #number-3 {
-    grid-area: number-3; 
- }
+#number-3 {
+   grid-area: number-3; 
+}
 
- #number-4 {
-    grid-area: number-4; 
- }
+#number-4 {
+   grid-area: number-4; 
+}
 
- #number-5 {
-    grid-area: number-5; 
- }
+#number-5 {
+   grid-area: number-5; 
+}
 
- #number-6 {
-    grid-area: number-6; 
- }
+#number-6 {
+   grid-area: number-6; 
+}
 
 #number-7 {
-    grid-area: number-7; 
- }
+   grid-area: number-7; 
+}
 
 #number-8 {
-    grid-area: number-8; 
- }
+   grid-area: number-8; 
+}
 
 #number-9 {
-    grid-area: number-9; 
- }
+   grid-area: number-9; 
+}
+
+#operator-dot {
+   grid-area: operator-dot;
+}
+
+#operator-multiplication {
+   grid-area: operator-multiplication;
+}
+
+#operator-subtraction {
+   grid-area: operator-subtraction;
+}
+
+#operator-addition {
+   grid-area: operator-addition;
+}
+
+#operator-result {
+   grid-area: operator-result;
+}

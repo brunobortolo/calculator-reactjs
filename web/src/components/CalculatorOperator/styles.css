@@ -1,0 +1,26 @@
+.calculator-operator {
+    height: 8rem;
+    min-width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px 3px;
+    transition: transform 0.2s;
+    background: #ecf0f1;
+    border-radius: 4px;
+}
+
+.calculator-operator:hover {
+    transform: scale(1.1);
+    border: 0;
+    background: #bdc3c7;
+}
+
+.calculator-operator p {
+    font: 400 2.4rem Poppins;
+}
+
+.calculator-operator img {
+    max-height: 17px;
+}
+

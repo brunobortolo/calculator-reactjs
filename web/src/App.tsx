@@ -1,6 +1,7 @@
 import React from 'react';
 
 import CalculatorNumber from './components/CalculatorNumber'; 
+import CalculatorOperator from './components/CalculatorOperator';
 
 import './assets/styles/global.css';
 import './styles.css';
@@ -18,6 +19,14 @@ function App() {
       <CalculatorNumber content="7"/>
       <CalculatorNumber content="8"/>
       <CalculatorNumber content="9"/>
+
+      <CalculatorOperator type="dot"/>
+      <CalculatorOperator type="division"/>
+      <CalculatorOperator type="multiplication"/>
+      <CalculatorOperator type="subtraction"/>
+      <CalculatorOperator type="addition"/>
+      <CalculatorOperator type="result"/>
+
     </div>
   );
 }
