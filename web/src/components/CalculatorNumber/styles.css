@@ -8,6 +8,9 @@
     transition: transform 0.2s;
     background: #ecf0f1;
     border-radius: 4px;
+    border: 0;
+    text-decoration: none;
+    font: 400 2.4rem Poppins;
 }
 
 .calculator-number:hover {
@@ -16,10 +19,7 @@
     background: #bdc3c7;
 }
 
-#number-0:hover {
-    transform: scale(1.04, 1.11);
+.calculator-number:focus {
+    outline: 0;
 }
 
-.calculator-number p {
-    font: 400 2.4rem Poppins;
-}

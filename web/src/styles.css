@@ -1,10 +1,11 @@
 .container {
     display: grid;
 
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
     grid-template-areas: 
+    "calculator-screen calculator-screen calculator-screen calculator-screen"
     "number-7 number-8 number-9 operator-division"
     "number-4 number-5 number-6 operator-multiplication"
     "number-1 number-2 number-3 operator-subtraction"
@@ -72,4 +73,20 @@
 
 #operator-result {
    grid-area: operator-result;
+}
+
+#calculator-screen {
+   grid-area: calculator-screen;
+   height: 8rem;
+   min-width: 8rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 3px 3px;
+   background: #ecf0f1;
+   border-radius: 4px;
+}
+
+#calculator-screen p {
+   font: 400 2.4rem Poppins;
 }
